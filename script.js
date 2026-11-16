@@ -1,3 +1,4 @@
+// This function fetches user data from a public API and displays it on the webpage. It handles loading states and errors gracefully.
 async function fetchUsers() {
   const result = document.getElementById("result");
   result.innerHTML = "<p>Loading user data.....</p>";
